@@ -25,5 +25,5 @@ Verify whether the VM is running or not.
 ```bash
 az vm get-instance-view \
   --resource-group <your-existing-rg> \
-  --name datacenter-vm \
+  --name vm-cli \
 ```
