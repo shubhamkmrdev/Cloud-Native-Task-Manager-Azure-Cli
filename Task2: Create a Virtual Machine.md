@@ -11,8 +11,8 @@ az group list --query "[0].name" -o tsv
 ```bash
 az vm create \                         
   --resource-group <existing_resource_group_name> \
-  --name datacenter-vm \
-  --image Ubuntu2204 \
+  --name vm-cli \
+  --image Ubuntu2404 \
   --size Standard_B2s \
   --admin-username azureuser \
   --generate-ssh-keys \
